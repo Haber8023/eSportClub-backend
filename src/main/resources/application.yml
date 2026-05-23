@@ -5,7 +5,7 @@ spring:
     active: dev
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.109.30.93:3306/eSportClub?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8mb4
+    url: jdbc:mysql://47.109.30.93:3306/eSportClub?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useUnicode=true
     username: ${DB_USERNAME:haber}
     password: ${DB_PASSWORD:Wsd2026@Haber}
     hikari:

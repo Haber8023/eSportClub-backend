@@ -1,12 +1,8 @@
 package com.esportclub.config;
 
-import com.esportclub.util.JwtUtil;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class JwtConfig {
-    @Bean
-    public JwtUtil jwtUtil() { return new JwtUtil(); }
+    // JwtUtil 已通过 @Component 注入，无需重复 @Bean
 }
